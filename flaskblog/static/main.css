@@ -88,3 +88,21 @@ a.article-title:hover {
 .account-heading {
     font-size: 2.5rem;
 }
+
+.about-section {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.about-image img {
+    width: 100%; /* Ensure the image fills its container */
+}
+
+.about-text {
+    flex: 2;
+}

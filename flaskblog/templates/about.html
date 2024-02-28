@@ -1,4 +1,25 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>About Page</h1>
+    <div class="about-section">
+        <div class="about-image">
+            <img src="{{ url_for('static', filename='gist.png') }}" alt="About Image">
+        </div>
+        <div class="about-text">
+            <h1>The Gist: Capturing Thoughts, Sharing Stories</h1>
+            <p>"The Gist is not just another run-of-the-mill
+                blog sharing platform; it's a vibrant community
+                where stories come to life. Here, users embark
+                on an exhilarating journey of self-expression,
+                creativity, and connection. Whether it's weaving
+                captivating tales, sharing thought-provoking insights,
+                or delving into personal experiences, The Gist provides
+                a dynamic canvas for individuals to paint their narratives.
+                With seamless functionality, users can effortlessly create,
+                edit, and share their posts, fostering a culture of exploration
+                and discovery. From heartwarming anecdotes to riveting adventures,
+                The Gist is where stories find their voice and resonate with
+                audiences far and wide."
+            </p>
+        </div>
+    </div>
 {% endblock content %}
