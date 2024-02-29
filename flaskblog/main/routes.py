@@ -1,8 +1,8 @@
+'''
+    Handles general routes
+'''
 from flask import render_template, request, Blueprint
 from flaskblog.models import Post
-'''
-    Handles routes
-'''
 
 
 main = Blueprint('main', __name__)

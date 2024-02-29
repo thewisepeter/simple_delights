@@ -1,7 +1,8 @@
-from flask import Blueprint, render_template
 '''
     module that handles errors
 '''
+from flask import Blueprint, render_template
+
 
 errors = Blueprint('errors', __name__)
 
