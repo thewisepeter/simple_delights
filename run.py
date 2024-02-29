@@ -1,7 +1,8 @@
-from flaskblog import create_app
 '''
     module that starts the gist application
 '''
+from flaskblog import create_app
+
 
 app = create_app()
 
