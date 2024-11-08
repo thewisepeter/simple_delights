@@ -2,3 +2,4 @@ __pycache__
 env_details.py
 sdenv/
 .DS_Store
+env/

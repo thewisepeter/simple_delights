@@ -33,7 +33,8 @@
 
 1. Clone the repository: `git clone <repository_url>`
 2. Install the dependencies: `pip install -r requirements.txt`
-3. Set up your database connection string and other configurations in `config.py`.
+3. Change the version of itsdangerous by `pip install itsdangerous==2.0.1` 
+4. Set up your database connection string and other configurations in `config.py`.
 4. Run the Flask application: `flask run`
 
 ## Usage
